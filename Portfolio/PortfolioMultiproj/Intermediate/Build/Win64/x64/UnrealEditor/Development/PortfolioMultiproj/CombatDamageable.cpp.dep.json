@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\tempdocuments\\unrealprojects\\portfolio\\portfoliomultiproj\\source\\portfoliomultiproj\\variant_combat\\interfaces\\combatdamageable.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\tempdocuments\\unrealprojects\\portfolio\\portfoliomultiproj\\intermediate\\build\\win64\\x64\\portfoliomultiprojeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\tempdocuments\\unrealprojects\\portfolio\\portfoliomultiproj\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portfoliomultiproj\\definitions.portfoliomultiproj.h",
+            "d:\\tempdocuments\\unrealprojects\\portfolio\\portfoliomultiproj\\source\\portfoliomultiproj\\variant_combat\\interfaces\\combatdamageable.h",
+            "d:\\tempdocuments\\unrealprojects\\portfolio\\portfoliomultiproj\\intermediate\\build\\win64\\unrealeditor\\inc\\portfoliomultiproj\\uht\\combatdamageable.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

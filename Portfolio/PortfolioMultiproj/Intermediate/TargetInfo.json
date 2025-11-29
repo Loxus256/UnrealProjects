@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PortfolioMultiproj",
+			"Path": "..\\Source\\PortfolioMultiproj.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PortfolioMultiprojEditor",
+			"Path": "..\\Source\\PortfolioMultiprojEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

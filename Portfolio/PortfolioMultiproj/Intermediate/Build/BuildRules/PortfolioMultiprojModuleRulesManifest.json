@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\TempDocuments\\UnrealProjects\\Portfolio\\PortfolioMultiproj\\Source\\PortfolioMultiproj\\PortfolioMultiproj.Build.cs",
+		"D:\\TempDocuments\\UnrealProjects\\Portfolio\\PortfolioMultiproj\\Source\\PortfolioMultiproj.Target.cs",
+		"D:\\TempDocuments\\UnrealProjects\\Portfolio\\PortfolioMultiproj\\Source\\PortfolioMultiprojEditor.Target.cs"
+	],
+	"EngineVersion": "5.7.1"
+}

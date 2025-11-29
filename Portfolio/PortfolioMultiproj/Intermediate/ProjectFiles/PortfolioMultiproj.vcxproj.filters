@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\PortfolioMultiproj.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PortfolioMultiproj.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PortfolioMultiprojEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\PortfolioMultiproj">
+      <UniqueIdentifier>{B1B19288-8E73-3422-8D1B-D7B434A05123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PortfolioMultiproj\MainMenu">
+      <UniqueIdentifier>{5E2A57AF-9744-3C80-9702-3D143EE3C92B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\MainMenu\GI_MainMenuLevelSelector.cpp">
+      <Filter>Source\PortfolioMultiproj\MainMenu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\MainMenu\GI_MainMenuLevelSelector.h">
+      <Filter>Source\PortfolioMultiproj\MainMenu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\MainMenu\GM_MainMenu.cpp">
+      <Filter>Source\PortfolioMultiproj\MainMenu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\MainMenu\GM_MainMenu.h">
+      <Filter>Source\PortfolioMultiproj\MainMenu</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\MainMenu\MainMenuWidget.cpp">
+      <Filter>Source\PortfolioMultiproj\MainMenu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\MainMenu\MainMenuWidget.h">
+      <Filter>Source\PortfolioMultiproj\MainMenu</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PortfolioMultiproj\PortfolioMultiproj.Build.cs">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\PortfolioMultiproj.cpp">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\PortfolioMultiproj.h">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\PortfolioMultiprojCharacter.cpp">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\PortfolioMultiprojCharacter.h">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\PortfolioMultiprojGameMode.cpp">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\PortfolioMultiprojGameMode.h">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\PortfolioMultiprojPlayerController.cpp">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\PortfolioMultiprojPlayerController.h">
+      <Filter>Source\PortfolioMultiproj</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\SplashScreen">
+      <UniqueIdentifier>{C7096935-EBC8-3910-815C-835E35A6EC3C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\SplashScreen\GM_SplashScreen.cpp">
+      <Filter>Source\PortfolioMultiproj\SplashScreen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\SplashScreen\GM_SplashScreen.h">
+      <Filter>Source\PortfolioMultiproj\SplashScreen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\SplashScreen\SplashScreenWidget.cpp">
+      <Filter>Source\PortfolioMultiproj\SplashScreen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\SplashScreen\SplashScreenWidget.h">
+      <Filter>Source\PortfolioMultiproj\SplashScreen</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_Combat">
+      <UniqueIdentifier>{602CAEF0-77B5-3729-8CA8-AD5F7AB5DF9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PortfolioMultiproj\Variant_Combat\AI">
+      <UniqueIdentifier>{C2186FAA-65C6-3EA0-AA8E-51DABC29601D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_Combat\Animation">
+      <UniqueIdentifier>{34B829B0-6AA7-3B0F-AE86-8B3E880AF5DB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{370640D9-6ED0-3B58-8C87-888662402211}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{C6E65EAD-9EF6-36D7-858F-DC7A542D9F20}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_Combat\UI">
+      <UniqueIdentifier>{F8261363-3770-3332-B09B-3F9C7466786E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_Platforming">
+      <UniqueIdentifier>{8CF121DE-C754-3150-AA91-A9CF87488DFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PortfolioMultiproj\Variant_Platforming\Animation">
+      <UniqueIdentifier>{40625521-8D90-33EB-BC1F-84FBEF43D809}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\PortfolioMultiproj\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_SideScrolling">
+      <UniqueIdentifier>{797A1C93-0977-3005-AE04-728B0A3CAA71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PortfolioMultiproj\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{046B75B2-78D5-3BF5-ABCF-1273AD2A66C1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{1FE5BEF0-E550-3540-BA92-3E3600BF661A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{34FBAE14-ACA3-3984-AC34-7C04821A661C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortfolioMultiproj\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{635A298F-D0B2-3A7C-95A1-31B425A69916}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\PortfolioMultiproj\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
