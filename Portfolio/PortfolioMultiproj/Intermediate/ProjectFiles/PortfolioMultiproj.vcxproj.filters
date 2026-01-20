@@ -33,6 +33,27 @@
     <Filter Include="Source\PortfolioMultiproj">
       <UniqueIdentifier>{B1B19288-8E73-3422-8D1B-D7B434A05123}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\PortfolioMultiproj\InteractionSystem">
+      <UniqueIdentifier>{A3369E03-D840-3CE6-A1DB-80C89D4D2294}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\InteractionSystem\Door.cpp">
+      <Filter>Source\PortfolioMultiproj\InteractionSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\InteractionSystem\Door.h">
+      <Filter>Source\PortfolioMultiproj\InteractionSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\InteractionSystem\InteractionInterface.cpp">
+      <Filter>Source\PortfolioMultiproj\InteractionSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\InteractionSystem\InteractionInterface.h">
+      <Filter>Source\PortfolioMultiproj\InteractionSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PortfolioMultiproj\InteractionSystem\PlayerCharacter.cpp">
+      <Filter>Source\PortfolioMultiproj\InteractionSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortfolioMultiproj\InteractionSystem\PlayerCharacter.h">
+      <Filter>Source\PortfolioMultiproj\InteractionSystem</Filter>
+    </ClInclude>
     <Filter Include="Source\PortfolioMultiproj\MainMenu">
       <UniqueIdentifier>{5E2A57AF-9744-3C80-9702-3D143EE3C92B}</UniqueIdentifier>
     </Filter>

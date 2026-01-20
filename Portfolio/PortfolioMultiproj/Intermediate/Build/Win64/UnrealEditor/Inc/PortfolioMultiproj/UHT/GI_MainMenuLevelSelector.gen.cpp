@@ -13,10 +13,97 @@ void EmptyLinkFunctionForGeneratedCodeGI_MainMenuLevelSelector() {}
 
 // ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_UGameInstance();
+ENGINE_API UClass* Z_Construct_UClass_UWorld_NoRegister();
 PORTFOLIOMULTIPROJ_API UClass* Z_Construct_UClass_UGI_MainMenuLevelSelector();
 PORTFOLIOMULTIPROJ_API UClass* Z_Construct_UClass_UGI_MainMenuLevelSelector_NoRegister();
+PORTFOLIOMULTIPROJ_API UScriptStruct* Z_Construct_UScriptStruct_FLevelData();
 UPackage* Z_Construct_UPackage__Script_PortfolioMultiproj();
 // ********** End Cross Module References **********************************************************
+
+// ********** Begin ScriptStruct FLevelData ********************************************************
+struct Z_Construct_UScriptStruct_FLevelData_Statics
+{
+	static inline consteval int32 GetStructSize() { return sizeof(FLevelData); }
+	static inline consteval int16 GetStructAlignment() { return alignof(FLevelData); }
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "ModuleRelativePath", "MainMenu/GI_MainMenuLevelSelector.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LevelDisplayName_MetaData[] = {
+		{ "Category", "LevelData" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Display name for the level in the UI button\n" },
+#endif
+		{ "ModuleRelativePath", "MainMenu/GI_MainMenuLevelSelector.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Display name for the level in the UI button" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LevelAsset_MetaData[] = {
+		{ "Category", "LevelData" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Soft reference to the level asset\n" },
+#endif
+		{ "ModuleRelativePath", "MainMenu/GI_MainMenuLevelSelector.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Soft reference to the level asset" },
+#endif
+	};
+#endif // WITH_METADATA
+
+// ********** Begin ScriptStruct FLevelData constinit property declarations ************************
+	static const UECodeGen_Private::FTextPropertyParams NewProp_LevelDisplayName;
+	static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_LevelAsset;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End ScriptStruct FLevelData constinit property declarations **************************
+	static void* NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FLevelData>();
+	}
+	static const UECodeGen_Private::FStructParams StructParams;
+}; // struct Z_Construct_UScriptStruct_FLevelData_Statics
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FLevelData;
+class UScriptStruct* FLevelData::StaticStruct()
+{
+	if (!Z_Registration_Info_UScriptStruct_FLevelData.OuterSingleton)
+	{
+		Z_Registration_Info_UScriptStruct_FLevelData.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FLevelData, (UObject*)Z_Construct_UPackage__Script_PortfolioMultiproj(), TEXT("LevelData"));
+	}
+	return Z_Registration_Info_UScriptStruct_FLevelData.OuterSingleton;
+	}
+
+// ********** Begin ScriptStruct FLevelData Property Definitions ***********************************
+const UECodeGen_Private::FTextPropertyParams Z_Construct_UScriptStruct_FLevelData_Statics::NewProp_LevelDisplayName = { "LevelDisplayName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FLevelData, LevelDisplayName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LevelDisplayName_MetaData), NewProp_LevelDisplayName_MetaData) };
+const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UScriptStruct_FLevelData_Statics::NewProp_LevelAsset = { "LevelAsset", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FLevelData, LevelAsset), Z_Construct_UClass_UWorld_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LevelAsset_MetaData), NewProp_LevelAsset_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FLevelData_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FLevelData_Statics::NewProp_LevelDisplayName,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FLevelData_Statics::NewProp_LevelAsset,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLevelData_Statics::PropPointers) < 2048);
+// ********** End ScriptStruct FLevelData Property Definitions *************************************
+const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FLevelData_Statics::StructParams = {
+	(UObject* (*)())Z_Construct_UPackage__Script_PortfolioMultiproj,
+	nullptr,
+	&NewStructOps,
+	"LevelData",
+	Z_Construct_UScriptStruct_FLevelData_Statics::PropPointers,
+	UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLevelData_Statics::PropPointers),
+	sizeof(FLevelData),
+	alignof(FLevelData),
+	RF_Public|RF_Transient|RF_MarkAsNative,
+	EStructFlags(0x00000001),
+	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLevelData_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FLevelData_Statics::Struct_MetaDataParams)
+};
+UScriptStruct* Z_Construct_UScriptStruct_FLevelData()
+{
+	if (!Z_Registration_Info_UScriptStruct_FLevelData.InnerSingleton)
+	{
+		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FLevelData.InnerSingleton, Z_Construct_UScriptStruct_FLevelData_Statics::StructParams);
+	}
+	return CastChecked<UScriptStruct>(Z_Registration_Info_UScriptStruct_FLevelData.InnerSingleton);
+}
+// ********** End ScriptStruct FLevelData **********************************************************
 
 // ********** Begin Class UGI_MainMenuLevelSelector Function LoadLevelByName ***********************
 struct Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByName_Statics
@@ -28,9 +115,15 @@ struct Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByName_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "GameManagement" },
+		{ "Category", "LevelManagement" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Function to load a level by its name and optionally clear the UI\n" },
+#endif
 		{ "CPP_Default_bClearUI", "true" },
 		{ "ModuleRelativePath", "MainMenu/GI_MainMenuLevelSelector.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Function to load a level by its name and optionally clear the UI" },
+#endif
 	};
 #endif // WITH_METADATA
 
@@ -81,6 +174,67 @@ DEFINE_FUNCTION(UGI_MainMenuLevelSelector::execLoadLevelByName)
 }
 // ********** End Class UGI_MainMenuLevelSelector Function LoadLevelByName *************************
 
+// ********** Begin Class UGI_MainMenuLevelSelector Function LoadLevelByReference ******************
+struct Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics
+{
+	struct GI_MainMenuLevelSelector_eventLoadLevelByReference_Parms
+	{
+		FLevelData LevelData;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "LevelManagement" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Function to load a level by soft reference\n" },
+#endif
+		{ "ModuleRelativePath", "MainMenu/GI_MainMenuLevelSelector.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Function to load a level by soft reference" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LevelData_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function LoadLevelByReference constinit property declarations ******************
+	static const UECodeGen_Private::FStructPropertyParams NewProp_LevelData;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function LoadLevelByReference constinit property declarations ********************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+
+// ********** Begin Function LoadLevelByReference Property Definitions *****************************
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::NewProp_LevelData = { "LevelData", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(GI_MainMenuLevelSelector_eventLoadLevelByReference_Parms, LevelData), Z_Construct_UScriptStruct_FLevelData, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LevelData_MetaData), NewProp_LevelData_MetaData) }; // 1231314703
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::NewProp_LevelData,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::PropPointers) < 2048);
+// ********** End Function LoadLevelByReference Property Definitions *******************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UGI_MainMenuLevelSelector, nullptr, "LoadLevelByReference", 	Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::GI_MainMenuLevelSelector_eventLoadLevelByReference_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::Function_MetaDataParams), Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::GI_MainMenuLevelSelector_eventLoadLevelByReference_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UGI_MainMenuLevelSelector::execLoadLevelByReference)
+{
+	P_GET_STRUCT_REF(FLevelData,Z_Param_Out_LevelData);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->LoadLevelByReference(Z_Param_Out_LevelData);
+	P_NATIVE_END;
+}
+// ********** End Class UGI_MainMenuLevelSelector Function LoadLevelByReference ********************
+
 // ********** Begin Class UGI_MainMenuLevelSelector ************************************************
 FClassRegistrationInfo Z_Registration_Info_UClass_UGI_MainMenuLevelSelector;
 UClass* UGI_MainMenuLevelSelector::GetPrivateStaticClass()
@@ -115,9 +269,6 @@ struct Z_Construct_UClass_UGI_MainMenuLevelSelector_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
-#endif
 		{ "IncludePath", "MainMenu/GI_MainMenuLevelSelector.h" },
 		{ "ModuleRelativePath", "MainMenu/GI_MainMenuLevelSelector.h" },
 	};
@@ -127,10 +278,12 @@ struct Z_Construct_UClass_UGI_MainMenuLevelSelector_Statics
 // ********** End Class UGI_MainMenuLevelSelector constinit property declarations ******************
 	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
 		{ .NameUTF8 = UTF8TEXT("LoadLevelByName"), .Pointer = &UGI_MainMenuLevelSelector::execLoadLevelByName },
+		{ .NameUTF8 = UTF8TEXT("LoadLevelByReference"), .Pointer = &UGI_MainMenuLevelSelector::execLoadLevelByReference },
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByName, "LoadLevelByName" }, // 2981921414
+		{ &Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByName, "LoadLevelByName" }, // 380903452
+		{ &Z_Construct_UFunction_UGI_MainMenuLevelSelector_LoadLevelByReference, "LoadLevelByReference" }, // 3862719303
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -179,14 +332,17 @@ UGI_MainMenuLevelSelector::~UGI_MainMenuLevelSelector() {}
 // ********** Begin Registration *******************************************************************
 struct Z_CompiledInDeferFile_FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_GI_MainMenuLevelSelector_h__Script_PortfolioMultiproj_Statics
 {
+	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
+		{ FLevelData::StaticStruct, Z_Construct_UScriptStruct_FLevelData_Statics::NewStructOps, TEXT("LevelData"),&Z_Registration_Info_UScriptStruct_FLevelData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FLevelData), 1231314703U) },
+	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UGI_MainMenuLevelSelector, UGI_MainMenuLevelSelector::StaticClass, TEXT("UGI_MainMenuLevelSelector"), &Z_Registration_Info_UClass_UGI_MainMenuLevelSelector, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGI_MainMenuLevelSelector), 3814500854U) },
+		{ Z_Construct_UClass_UGI_MainMenuLevelSelector, UGI_MainMenuLevelSelector::StaticClass, TEXT("UGI_MainMenuLevelSelector"), &Z_Registration_Info_UClass_UGI_MainMenuLevelSelector, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGI_MainMenuLevelSelector), 2814904360U) },
 	};
 }; // Z_CompiledInDeferFile_FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_GI_MainMenuLevelSelector_h__Script_PortfolioMultiproj_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_GI_MainMenuLevelSelector_h__Script_PortfolioMultiproj_2038544523{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_GI_MainMenuLevelSelector_h__Script_PortfolioMultiproj_2747141260{
 	TEXT("/Script/PortfolioMultiproj"),
 	Z_CompiledInDeferFile_FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_GI_MainMenuLevelSelector_h__Script_PortfolioMultiproj_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_GI_MainMenuLevelSelector_h__Script_PortfolioMultiproj_Statics::ClassInfo),
-	nullptr, 0,
+	Z_CompiledInDeferFile_FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_GI_MainMenuLevelSelector_h__Script_PortfolioMultiproj_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_GI_MainMenuLevelSelector_h__Script_PortfolioMultiproj_Statics::ScriptStructInfo),
 	nullptr, 0,
 };
 // ********** End Registration *********************************************************************

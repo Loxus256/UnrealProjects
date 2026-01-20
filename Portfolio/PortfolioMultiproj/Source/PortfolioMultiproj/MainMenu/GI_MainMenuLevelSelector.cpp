@@ -8,6 +8,24 @@
 #include "Blueprint/WidgetBlueprintLibrary.h"
 #include "Blueprint/UserWidget.h"
 
+// Function to load a level by soft reference
+void UGI_MainMenuLevelSelector::LoadLevelByReference(const FLevelData& LevelData)
+{
+	//Check if LevelAsset is valid
+	if (LevelData.LevelAsset.IsNull())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Level load failed: invalid LevelAsset"));
+		return;
+	}
+	
+	//Get the level name from the asset
+	FName LevelName = FName(*LevelData.LevelAsset.GetAssetName());
+	
+	//Load the level
+	LoadLevelByName(LevelName, true);
+}
+
+
 void UGI_MainMenuLevelSelector::LoadLevelByName(FName LevelName, bool bClearUI)
 {
 	//Check if LevelName is valid

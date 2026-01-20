@@ -17,18 +17,18 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UMainMenuWidget **********************************************************
-#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execOnQuitClicked); \
-	DECLARE_FUNCTION(execOnCreditsClicked); \
-	DECLARE_FUNCTION(execOnLevel2Clicked); \
-	DECLARE_FUNCTION(execOnLevel1Clicked); \
-	DECLARE_FUNCTION(execOnLevelButtonClicked);
+#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnQuitClick); \
+	DECLARE_FUNCTION(execOnCreditsClick); \
+	DECLARE_FUNCTION(execHandleLevelClick); \
+	DECLARE_FUNCTION(execOnLevel2Click); \
+	DECLARE_FUNCTION(execOnLevel1Click);
 
 
 struct Z_Construct_UClass_UMainMenuWidget_Statics;
 PORTFOLIOMULTIPROJ_API UClass* Z_Construct_UClass_UMainMenuWidget_NoRegister();
 
-#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMainMenuWidget(); \
 	friend struct ::Z_Construct_UClass_UMainMenuWidget_Statics; \
@@ -39,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(UMainMenuWidget)
 
 
-#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMainMenuWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -51,13 +51,13 @@ public: \
 	NO_API virtual ~UMainMenuWidget();
 
 
-#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_13_PROLOG
-#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_16_GENERATED_BODY \
+#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_15_PROLOG
+#define FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_16_INCLASS_NO_PURE_DECLS \
-	FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_16_ENHANCED_CONSTRUCTORS \
+	FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_18_INCLASS_NO_PURE_DECLS \
+	FID_PortfolioMultiproj_Source_PortfolioMultiproj_MainMenu_MainMenuWidget_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
