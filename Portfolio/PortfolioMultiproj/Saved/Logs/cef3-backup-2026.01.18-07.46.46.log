@@ -1,8 +1,0 @@
-[32736:23900:0118/084633.821:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[32736:28432:0118/084633.855:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[32736:23900:0118/084633.863:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[32736:23900:0118/084635.725:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[8644:25440:0118/084638.260:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-38CBB0167883DDEEF76377B22F3B90DF will be ignored
-[11108:26076:0118/084640.823:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
-[11108:26076:0118/084641.031:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
-[32736:23900:0118/084646.446:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

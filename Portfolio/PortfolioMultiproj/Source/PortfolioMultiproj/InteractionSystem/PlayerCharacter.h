@@ -12,6 +12,7 @@
 class UInputMappingContext;
 class UInputAction;
 class UCameraComponent;
+struct FInputActionValue;
 
 UCLASS()
 class PORTFOLIOMULTIPROJ_API APlayerCharacter : public ACharacter
@@ -37,6 +38,14 @@ protected:
 	// Input mapping context
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
 	UInputMappingContext* DefaultInputMappingContext;
+
+	// Input action for movement
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
+	UInputAction* MoveAction;
+
+	// Input action for looking around
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
+	UInputAction* LookAction;
 
 	// Input action for interaction
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")

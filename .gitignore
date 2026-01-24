@@ -1,6 +1,8 @@
-#Specific folder
-NoPortfolio/**
-NotReadyToUpload/**
+# Exclude non-portfolio related content
+NoPortfolio/
+
+# Projects in development: Pending optimization and LFS migration
+NotReadyToUpload/
 
 # Visual Studio 2015 user specific files
 .vs/

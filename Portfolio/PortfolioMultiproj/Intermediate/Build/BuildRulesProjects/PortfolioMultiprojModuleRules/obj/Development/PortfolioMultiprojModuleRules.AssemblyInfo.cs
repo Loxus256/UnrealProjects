@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortfolioMultiprojModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b1a44a489475b18b2acad739fb66b3181b631ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73f66d951c9cad775e44bdb91ac1766ba9dd01d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortfolioMultiprojModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortfolioMultiprojModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
